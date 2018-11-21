@@ -71,7 +71,7 @@ body{
     right: 0;
     width: 50%;
     height: 100%;
-    background: #dddS;
+    background: #ddd;
     padding:16px;
     display:flex;
     justify-content:center;
@@ -84,9 +84,7 @@ body{
     text-align:center;
 }
 `
-var result2 = `/*接下来把Markdown 变成HTML-marked.js
-给HTML加样式*/
-`
+var result2 = ''
 var md = `#自我介绍
 
 我叫zzj
@@ -103,7 +101,7 @@ var md = `#自我介绍
 3.个人在线简历
 
 #联系方式
-邮箱：zhangzdejun3@xdf.cn
+邮箱：zhangzejun3@xdf.cn
 `
 writeCode('',result,()=>{
     createPaper()
